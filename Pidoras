@@ -43,7 +43,7 @@ local Frame = CreateRoundedFrame(
     UDim2.new(0.5, -125, 0.5, -100)
 )
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame.Visible = false
+Frame.Visible = true
 Frame.Parent = ScreenGui
 
 local Shadow = Instance.new("ImageLabel")
